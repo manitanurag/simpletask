@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+input, textarea, select, button {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  font-size: 1rem;
+}
+.auth-form, .task-form, .task-details {
+  background: white;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+}
+.task-list {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.priority-column {
+  flex: 1;
+  border-radius: 8px;
+  padding: 1rem;
+  min-width: 220px;
+}
+.task-item {
+  display: block;
+  background: #fff6;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 1px 3px #0001;
+}
+.task-item:hover {
+  background: #e3e3e3;
+}
+.pagination {
+  margin: 1rem 0;
+  text-align: center;
+}
+.confirm-dialog {
+  background: #fff3cd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ffeeba;
+  border-radius: 6px;
+}
+.error {
+  color: red;
+  margin: 8px 0;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
